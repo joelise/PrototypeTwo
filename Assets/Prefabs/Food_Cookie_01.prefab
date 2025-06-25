@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 1474826686377925696}
   - component: {fileID: 6201717203583605764}
   - component: {fileID: 2556233746238025790}
+  - component: {fileID: 6179537932248344894}
+  - component: {fileID: 461622175111897689}
+  - component: {fileID: 909636570957604038}
   m_Layer: 0
   m_Name: Food_Cookie_01
   m_TagString: Untagged
@@ -113,4 +116,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e180eaae51b2ec047b1fe78af1cef5ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBound: 30
+--- !u!65 &6179537932248344894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689859789237759049}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.58594465, y: 0.06719126, z: 0.59707355}
+  m_Center: {x: -0.00092715025, y: 0, z: -0.0064942837}
+--- !u!54 &461622175111897689
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689859789237759049}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &909636570957604038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689859789237759049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03187cea96bfded4abd8d1102e2f9cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
